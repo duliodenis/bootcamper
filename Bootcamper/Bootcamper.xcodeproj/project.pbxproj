@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7B65041C431014008C4BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65031C431014008C4BB9 /* AppDelegate.swift */; };
+		6C7B65061C431014008C4BB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65051C431014008C4BB9 /* FirstViewController.swift */; };
+		6C7B65081C431014008C4BB9 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65071C431014008C4BB9 /* LocationVC.swift */; };
+		6C7B650B1C431014008C4BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B65091C431014008C4BB9 /* Main.storyboard */; };
+		6C7B650D1C431014008C4BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B650C1C431014008C4BB9 /* Assets.xcassets */; };
+		6C7B65101C431014008C4BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B650E1C431014008C4BB9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C7B65001C431014008C4BB9 /* Bootcamper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7B65031C431014008C4BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C7B65051C431014008C4BB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6C7B65071C431014008C4BB9 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		6C7B650A1C431014008C4BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7B650C1C431014008C4BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7B650F1C431014008C4BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C7B65111C431014008C4BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7B64FD1C431014008C4BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7B64F71C431014008C4BB9 = {
+			isa = PBXGroup;
+			children = (
+				6C7B65021C431014008C4BB9 /* Bootcamper */,
+				6C7B65011C431014008C4BB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7B65011C431014008C4BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B65001C431014008C4BB9 /* Bootcamper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7B65021C431014008C4BB9 /* Bootcamper */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B65031C431014008C4BB9 /* AppDelegate.swift */,
+				6C7B65051C431014008C4BB9 /* FirstViewController.swift */,
+				6C7B65071C431014008C4BB9 /* LocationVC.swift */,
+				6C7B65091C431014008C4BB9 /* Main.storyboard */,
+				6C7B650C1C431014008C4BB9 /* Assets.xcassets */,
+				6C7B650E1C431014008C4BB9 /* LaunchScreen.storyboard */,
+				6C7B65111C431014008C4BB9 /* Info.plist */,
+			);
+			path = Bootcamper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7B64FF1C431014008C4BB9 /* Bootcamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B65141C431014008C4BB9 /* Build configuration list for PBXNativeTarget "Bootcamper" */;
+			buildPhases = (
+				6C7B64FC1C431014008C4BB9 /* Sources */,
+				6C7B64FD1C431014008C4BB9 /* Frameworks */,
+				6C7B64FE1C431014008C4BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bootcamper;
+			productName = Bootcamper;
+			productReference = 6C7B65001C431014008C4BB9 /* Bootcamper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7B64F81C431014008C4BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dulio Denis";
+				TargetAttributes = {
+					6C7B64FF1C431014008C4BB9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6C7B64FB1C431014008C4BB9 /* Build configuration list for PBXProject "Bootcamper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7B64F71C431014008C4BB9;
+			productRefGroup = 6C7B65011C431014008C4BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7B64FF1C431014008C4BB9 /* Bootcamper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7B64FE1C431014008C4BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B65101C431014008C4BB9 /* LaunchScreen.storyboard in Resources */,
+				6C7B650D1C431014008C4BB9 /* Assets.xcassets in Resources */,
+				6C7B650B1C431014008C4BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7B64FC1C431014008C4BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B65081C431014008C4BB9 /* LocationVC.swift in Sources */,
+				6C7B65041C431014008C4BB9 /* AppDelegate.swift in Sources */,
+				6C7B65061C431014008C4BB9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7B65091C431014008C4BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B650A1C431014008C4BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C7B650E1C431014008C4BB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B650F1C431014008C4BB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7B65121C431014008C4BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7B65131C431014008C4BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7B65151C431014008C4BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bootcamper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ddapps.Bootcamper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C7B65161C431014008C4BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bootcamper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.ddapps.Bootcamper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7B64FB1C431014008C4BB9 /* Build configuration list for PBXProject "Bootcamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B65121C431014008C4BB9 /* Debug */,
+				6C7B65131C431014008C4BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7B65141C431014008C4BB9 /* Build configuration list for PBXNativeTarget "Bootcamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B65151C431014008C4BB9 /* Debug */,
+				6C7B65161C431014008C4BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7B64F81C431014008C4BB9 /* Project object */;
+}
