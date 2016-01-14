@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C6CD7A31C47F7CE00BD2911 /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CD7A21C47F7CE00BD2911 /* BootcampAnnotation.swift */; };
 		6C7B65041C431014008C4BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65031C431014008C4BB9 /* AppDelegate.swift */; };
 		6C7B65061C431014008C4BB9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65051C431014008C4BB9 /* FirstViewController.swift */; };
 		6C7B65081C431014008C4BB9 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B65071C431014008C4BB9 /* LocationVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C6CD7A21C47F7CE00BD2911 /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 		6C7B65001C431014008C4BB9 /* Bootcamper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7B65031C431014008C4BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C7B65051C431014008C4BB9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				6C7B65031C431014008C4BB9 /* AppDelegate.swift */,
 				6C7B65051C431014008C4BB9 /* FirstViewController.swift */,
 				6C7B65071C431014008C4BB9 /* LocationVC.swift */,
+				6C6CD7A21C47F7CE00BD2911 /* BootcampAnnotation.swift */,
 				6C7B65091C431014008C4BB9 /* Main.storyboard */,
 				6C7B650C1C431014008C4BB9 /* Assets.xcassets */,
 				6C7B650E1C431014008C4BB9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				6C7B65081C431014008C4BB9 /* LocationVC.swift in Sources */,
 				6C7B65041C431014008C4BB9 /* AppDelegate.swift in Sources */,
 				6C7B65061C431014008C4BB9 /* FirstViewController.swift in Sources */,
+				6C6CD7A31C47F7CE00BD2911 /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
